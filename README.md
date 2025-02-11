@@ -16,7 +16,8 @@ git init: iniciar diretorio git.
 git add: adicionar o arquivo na fila para commited
 git rm --cached <file>: remover o arquivo do staging.
 git add.: adiciona todos os arquivos na fila para serem comitados.
-
+git commit -m: adicionar novo arquivo e descrição.
+git log: histórico do commit
 ```
 ## 🔎 Referências
 - [Digital Innovation One]().
@@ -24,7 +25,7 @@ git add.: adiciona todos os arquivos na fila para serem comitados.
 ## 💭Conceitos
 
 - Commit - Recurso / marco histórico no código, linha do tempo.
-
+- Branch - Linha do tempo paralela
 ```
 Estagios:
 
@@ -32,8 +33,6 @@ Estagios:
 - Staging: Arquivos prontos para serem enviados
 - Committed: Arquivos enviados
 ```
-- Branch - Linha do tempo paralela
-
 ## 🖥 Comandos terminal
 ```
 - Ls: Ver aquivos do diretório
@@ -43,4 +42,10 @@ Estagios:
 - Rmdir: remover a pasta
 - Mkdir: criar diretório.
 - Nano: abrir o conteudo do arquivo.
+```
+## 💬 Revertendo commits
+```
+- Checkout: Volta até o commit selecionado.
+- Revert: Altera o histórico do git selecionado.
+- Reset: Reseta todo o histórico.
 ```

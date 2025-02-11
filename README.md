@@ -1,3 +1,4 @@
+
 # Resumos Git e Github
 
 Repositorio para salvar Resumos sobre Git e Github, nas aulas de versionamento.
@@ -18,12 +19,16 @@ git rm --cached <file>: remover o arquivo do staging.
 git add.: adiciona todos os arquivos na fila para serem comitados.
 git commit -m: adicionar novo arquivo e descrição.
 git log: histórico do commit
+git branch -m <nome>: main ou master
+git merge: Fazer a fusão dos branchs
+git push: subir os arquivos para o github.
+git remote add origin <diretorio>: comando seleciona o destino final para envio das informações.
+git push origin main: sobe os arquivos para o destino final.
 ```
 ## 🔎 Referências
 - [Digital Innovation One]().
 - [Curso Git e Github Thiago matos](https://www.youtube.com/watch?v=bZb0KiAbmNU&list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU&index=2).
 ## 💭Conceitos
-
 - Commit - Recurso / marco histórico no código, linha do tempo.
 - Branch - Linha do tempo paralela
 ```

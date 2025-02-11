@@ -11,8 +11,15 @@ Repositorio para salvar Resumos sobre Git e Github do curso de versionamento da 
 |-------| --------|
 | Gravando alterações do repositorio local |[link]() |
 
-```
-git init
-```
 ## 🔎 Referências
 - [Digital Innovation One]().
+- [Curso Git e Github Thiago matos](https://www.youtube.com/watch?v=bZb0KiAbmNU&list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU&index=2).
+## Conceitos
+- Commit - Recurso / marco histórico no código, linha do tempo.
+```
+Estagios:
+- Modified: Arquivos alterados
+- Staging: Arquivos prontos para serem enviados
+- Committed: Arquivos enviados
+```
+- Branch - Linha do tempo paralela

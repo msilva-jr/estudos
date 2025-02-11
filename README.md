@@ -12,7 +12,11 @@ Repositorio para salvar Resumos sobre Git e Github, nas aulas de versionamento.
 | Gravando alterações do repositorio local |[link]() |
 
 ```
-git init
+git init: iniciar diretorio git.
+git add: adicionar o arquivo na fila para commited
+git rm --cached <file>: remover o arquivo do staging.
+git add.: adiciona todos os arquivos na fila para serem comitados.
+
 ```
 ## 🔎 Referências
 - [Digital Innovation One]().
@@ -37,6 +41,6 @@ Estagios:
 - Touch: Criar Arquivos
 - Rm: Remover aquivos
 - Rmdir: remover a pasta
-- Mkdir: 
+- Mkdir: criar diretório.
 - Nano: abrir o conteudo do arquivo.
 ```
